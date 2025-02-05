@@ -31,7 +31,6 @@ include './config/conflang.php';
             </form>
 
             <a href="" class="btn btn-custom">Tutorial</a>
-
         </div>
 
             <h1 class="titulo-principal mt-3 mb-3"><?php echo $lang["gestion-eventos"]; ?></h1>
