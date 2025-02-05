@@ -15,7 +15,7 @@ Para que el docente pueda revisar este proyecto, necesita tener varias herramien
 1. Puede clonar este repositorio con Git utilizando el siguiente comando:
 
 ```bash
-git clone https://github.com/tuusuario/nombre-del-repositorio.git
+git clone https://github.com/https://github.com/hugooisraell/SistemaWebCaso2.git
 
 ```
 
@@ -54,8 +54,3 @@ $database = 'sistemaeducativo';
 1. Inicie los servicios de Apache y MySQL desde el panel de control de XAMPP.
 2. Abra su navegador web y acceda a http://localhost/Caso1_HCI_ HugoLainez.
 
-## Video de prueba
-
-Se subio un video a YouTube, donde se muestra como funciona el Sistema Web y se prueba que no genera ningun error.
-
-Puede acceder mediante https://youtu.be/ERGcwwHvPd4
