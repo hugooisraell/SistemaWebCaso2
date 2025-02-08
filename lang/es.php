@@ -26,13 +26,15 @@ $lang = array(
 
     "guardar" => "Guardar",
     "cancelar" => "Cancelar",
-    
+
     "editar-evento" => "Editar Evento",
 
     "actualizar" => "Actualizar",
 
     "todos-contactos" => "Todos los Contactos",
-    
+
+    "nombres" => "Nombres",
+    "apellidos" => "Apellidos",
     "correo" => "Correo Electrónico",
     "telefono" => "Teléfono",
 
@@ -42,10 +44,14 @@ $lang = array(
 
     "todas-ubicaciones" => "Todas las Ubicaciones",
 
+    "nombre" => "Nombre",
     "direccion" => "Dirección",
 
     "nueva-ubicacion" => "Nueva Ubicación",
 
     "editar-ubicacion" => "Editar Ubicación",
-    
+
+    "tutorial" => "Tutorial",
+    "idioma" => "Idioma",
+
 );

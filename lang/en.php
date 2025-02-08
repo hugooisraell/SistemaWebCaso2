@@ -33,6 +33,8 @@ $lang = array(
 
     "todos-contactos" => "All Contacts",
 
+    "nombres" => "First Name",
+    "apellidos" => "Last Name",
     "correo" => "Email",
     "telefono" => "Phone",
 
@@ -42,10 +44,14 @@ $lang = array(
 
     "todas-ubicaciones" => "All Locations",
 
+    "nombre" => "Name",
     "direccion" => "Address",
 
     "nueva-ubicacion" => "New Location",
 
     "editar-ubicacion" => "Edit Location",
+
+    "tutorial" => "Tutorial",
+    "idioma" => "Language",
 
 );

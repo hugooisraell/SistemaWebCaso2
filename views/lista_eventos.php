@@ -24,13 +24,13 @@ include './config/conflang.php';
             <form method="POST" id="lang-form">
                 <select name="lang" id="lang-selector" class="form-select btn btn-custom">
                     <option value="es" <?php if ($_SESSION['lang'] == 'es') echo 'selected'; ?>>Español</option>
-                    <option value="en" <?php if ($_SESSION['lang'] == 'en') echo 'selected'; ?>>Inglés</option>
+                    <option value="en" <?php if ($_SESSION['lang'] == 'en') echo 'selected'; ?>>English</option>
                     <option value="pt" <?php if ($_SESSION['lang'] == 'pt') echo 'selected'; ?>>Português</option>
                     <option value="fr" <?php if ($_SESSION['lang'] == 'fr') echo 'selected'; ?>>Français</option>
                 </select>
             </form>
 
-            <a href="" class="btn btn-custom">Tutorial</a>
+            <a href="" class="btn btn-custom"><?php echo $lang["tutorial"]; ?></a>
         </div>
 
             <h1 class="titulo-principal mt-3 mb-3"><?php echo $lang["gestion-eventos"]; ?></h1>

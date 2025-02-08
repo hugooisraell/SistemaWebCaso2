@@ -3,49 +3,55 @@
 $lang = array(
 
     "gestion-eventos" => "Gestion des événements",
-"todos-eventos" => "Tous les événements",
+    "todos-eventos" => "Tous les événements",
 
-"eventos" => "Événements",
-"contactos" => "Contacts",
-"ubicaciones" => "Emplacements",
+    "eventos" => "Événements",
+    "contactos" => "Contacts",
+    "ubicaciones" => "Emplacements",
 
-"descripcion" => "Description",
-"categoria" => "Catégorie",
-"lugar" => "Lieu",
-"fecha" => "Date",
-"hora" => "Heure",
+    "descripcion" => "Description",
+    "categoria" => "Catégorie",
+    "lugar" => "Lieu",
+    "fecha" => "Date",
+    "hora" => "Heure",
 
-"editar" => "Modifier",
-"eliminar" => "Supprimer",
+    "editar" => "Modifier",
+    "eliminar" => "Supprimer",
 
-"nuevo" => "Nouveau",
+    "nuevo" => "Nouveau",
 
-"nuevo-evento" => "Nouvel Événement",
+    "nuevo-evento" => "Nouvel Événement",
 
-"titulo" => "Titre",
+    "titulo" => "Titre",
 
-"guardar" => "Enregistrer",
-"cancelar" => "Annuler",
+    "guardar" => "Enregistrer",
+    "cancelar" => "Annuler",
 
-"editar-evento" => "Modifier l'Événement",
+    "editar-evento" => "Modifier l'Événement",
 
-"actualizar" => "Mettre à jour",
+    "actualizar" => "Mettre à jour",
 
-"todos-contactos" => "Tous les Contacts",
+    "todos-contactos" => "Tous les Contacts",
 
-"correo" => "E-mail",
-"telefono" => "Téléphone",
+    "nombres" => "Prénoms",
+    "apellidos" => "Noms de famille",
+    "correo" => "E-mail",
+    "telefono" => "Téléphone",
 
-"nuevo-contacto" => "Nouveau Contact",
+    "nuevo-contacto" => "Nouveau Contact",
 
-"editar-contacto" => "Modifier le Contact",
+    "editar-contacto" => "Modifier le Contact",
 
-"todas-ubicaciones" => "Tous les Emplacements",
+    "todas-ubicaciones" => "Tous les Emplacements",
 
-"direccion" => "Adresse",
+    "nombre" => "Nom",
+    "direccion" => "Adresse",
 
-"nueva-ubicacion" => "Nouvel Emplacement",
+    "nueva-ubicacion" => "Nouvel Emplacement",
 
-"editar-ubicacion" => "Modifier l'Emplacement",
+    "editar-ubicacion" => "Modifier l'Emplacement",
+
+    "tutorial" => "Tutoriel",
+    "idioma" => "Langue",
 
 );

@@ -26,10 +26,10 @@ git clone https://github.com/https://github.com/hugooisraell/SistemaWebCaso2.git
 1. Copie la carpeta del proyecto en el directorio htdocs dentro de la carpeta donde instaló XAMPP. Por ejemplo:
 
 ```
-"C:/xampp/htdocs/Caso1_HCI_ HugoLainez"
+"C:/xampp/htdocs/Caso2_HCI_ HugoLainez"
 
 ```
-Nota: es importante que el directorio principal del proyecto se llame "Caso1_HCI_ HugoLainez", de esta forma se evitará cualquier error en la configuración del sistema
+Nota: es importante que el directorio principal del proyecto se llame "Caso2_HCI_ HugoLainez", de esta forma se evitará cualquier error en la configuración del sistema
 
 ### 3. Importar la base de datos
 1. Inicie el servidor MySQL desde el panel de control de XAMPP.
@@ -52,5 +52,5 @@ $database = 'sistemaeducativo';
 
 ### 5. Ejecutar el proyecto
 1. Inicie los servicios de Apache y MySQL desde el panel de control de XAMPP.
-2. Abra su navegador web y acceda a http://localhost/Caso1_HCI_ HugoLainez.
+2. Abra su navegador web y acceda a http://localhost/Caso2_HCI_ HugoLainez.
 
