@@ -31,7 +31,7 @@ include './config/conflang.php';
 
             <a href="" class="btn btn-custom"><?php echo $lang["tutorial"]; ?></a>
         </div>
-        
+
         <h1 class="titulo-principal mt-3 mb-3"><?php echo $lang["gestion-eventos"]; ?></h1>
 
         <div class="mt-4 mb-4">
@@ -51,6 +51,10 @@ include './config/conflang.php';
                     <input type="text" name="apellido" id="apellido" class="form-control" value="<?= $contacto['apellido'] ?>" required>
                 </div>
                 <div class="form-group">
+                    <label for="fecha_nacimiento"><?php echo $lang["fecha_nacimiento"]; ?></label>
+                    <input type="date" name="fecha_nacimiento" id="fecha_nacimiento" class="form-control" value="<?= $contacto['fecha_nacimiento'] ?>" required>
+                </div>
+                <div class="form-group">
                     <label for="email"><?php echo $lang["correo"]; ?></label>
                     <input type="text" name="email" id="email" class="form-control" value="<?= $contacto['email'] ?>" required>
                 </div>
@@ -58,7 +62,7 @@ include './config/conflang.php';
                     <label for="telefono"><?php echo $lang["telefono"]; ?></label>
                     <input type="text" name="telefono" id="telefono" class="form-control" value="<?= $contacto['telefono'] ?>" required>
                 </div>
-                
+
                 <div class="d-flex justify-content-end mt-3 mb-3">
                     <!-- Botón para actualizar el contacto -->
                     <button type="submit" class="btn btn-custom"><?php echo $lang["actualizar"]; ?></button>

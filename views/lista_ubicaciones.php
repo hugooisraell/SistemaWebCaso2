@@ -54,6 +54,7 @@ include './config/conflang.php';
 
                             <p class="card-text">
                                 <strong><?php echo $lang["direccion"]; ?>:</strong> <?= htmlspecialchars($ubicacion['direccion']) ?><br>
+                                <strong><?php echo $lang["detalle"]; ?>:</strong> <?= htmlspecialchars($ubicacion['detalle']) ?><br>
                             </p>
 
                             <div class="d-flex justify-content-end mt-3 mb-3">

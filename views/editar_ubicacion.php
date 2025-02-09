@@ -44,6 +44,10 @@ include './config/conflang.php';
                     <input type="text" name="nombre" id="nombre" class="form-control" value="<?= $ubicacion['nombre'] ?>" required>
                 </div>
                 <div class="form-group">
+                    <label for="detalle"><?php echo $lang["detalle"]; ?></label>
+                    <input type="text" name="detalle" id="detalle" class="form-control" value="<?= $ubicacion['detalle'] ?>" required>
+                </div>
+                <div class="form-group">
                     <label for="direccion"><?php echo $lang["direccion"]; ?></label>
                     <input type="text" name="direccion" id="direccion" class="form-control" value="<?= $ubicacion['direccion'] ?>" required>
                 </div>

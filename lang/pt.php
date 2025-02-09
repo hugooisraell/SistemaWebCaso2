@@ -35,6 +35,7 @@ $lang = array(
 
     "nombres" => "Nomes",
     "apellidos" => "Sobrenomes",
+    "fecha_nacimiento" => "Data de nascimento",
     "correo" => "E-mail",
     "telefono" => "Telefone",
 
@@ -46,6 +47,7 @@ $lang = array(
 
     "nombre" => "Nome",
     "direccion" => "Endereço",
+    "detalle" => "Detalhe",
 
     "nueva-ubicacion" => "Nova Localização",
 

@@ -56,6 +56,7 @@ include './config/conflang.php';
 
                             <!-- Información del contacto -->
                             <p class="card-text">
+                                <strong><?php echo $lang["fecha_nacimiento"]; ?>:</strong> <?= htmlspecialchars($contacto['fecha_nacimiento']) ?><br>
                                 <strong><?php echo $lang["correo"]; ?>:</strong> <?= htmlspecialchars($contacto['email']) ?><br>
                                 <strong><?php echo $lang["telefono"]; ?>:</strong> <?= htmlspecialchars($contacto['telefono']) ?><br>
                             </p>

@@ -21,8 +21,9 @@ class UbicacionesController {
     public function agregar() {
         $nombre = $_POST['nombre'];
         $direccion = $_POST['direccion'];
+        $detalle = $_POST['detalle'];
 
-        $this->ubicacion->agregar($nombre, $direccion);
+        $this->ubicacion->agregar($nombre, $direccion, $detalle);
         
         header('Location: ./act_ubicaciones.php');
     }
@@ -35,8 +36,9 @@ class UbicacionesController {
     public function editar($id) {
         $nombre = $_POST['nombre'];
         $direccion = $_POST['direccion'];
+        $detalle = $_POST['detalle'];
 
-        $this->ubicacion->actualizarUbicacion($id, $nombre, $direccion);
+        $this->ubicacion->actualizarUbicacion($id, $nombre, $direccion, $detalle);
         
         header('Location: ./act_ubicaciones.php');
     }
@@ -44,6 +46,6 @@ class UbicacionesController {
     public function eliminar($id) {
         $this->ubicacion->eliminar($id);
         
-        header('Location: /act_ubicaciones.php');
+        header('Location: ./act_ubicaciones.php');
     }
 }

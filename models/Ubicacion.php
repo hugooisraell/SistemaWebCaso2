@@ -16,10 +16,10 @@ class Ubicacion {
         return $resultado->fetch_all(MYSQLI_ASSOC);
     }
 
-    public function agregar($nombre, $direccion) {
-        $sql = "INSERT INTO ubicaciones (nombre, direccion) VALUES (?, ?)";
+    public function agregar($nombre, $direccion, $detalle) {
+        $sql = "INSERT INTO ubicaciones (nombre, direccion, detalle) VALUES (?, ?, ?)";
         $stmt = $this->conexion->prepare($sql);
-        $stmt->bind_param('ss', $nombre, $direccion);
+        $stmt->bind_param('sss', $nombre, $direccion, $detalle);
         return $stmt->execute();
     }
 
@@ -31,10 +31,10 @@ class Ubicacion {
         return $stmt->get_result()->fetch_assoc();
     }
 
-    public function actualizarUbicacion($id, $nombre, $direccion) {
-        $sql = "UPDATE ubicaciones SET nombre = ?, direccion = ? WHERE id = ?";
+    public function actualizarUbicacion($id, $nombre, $direccion, $detalle) {
+        $sql = "UPDATE ubicaciones SET nombre = ?, direccion = ?, detalle = ? WHERE id = ?";
         $stmt = $this->conexion->prepare($sql);
-        $stmt->bind_param('ssi', $nombre, $direccion, $id);
+        $stmt->bind_param('sssi', $nombre, $direccion, $detalle, $id);
         return $stmt->execute();
     }
 

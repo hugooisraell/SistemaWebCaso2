@@ -30,7 +30,7 @@ include './config/conflang.php';
 
             <a href="" class="btn btn-custom"><?php echo $lang["tutorial"]; ?></a>
         </div>
-        
+
         <h1 class="titulo-principal mt-3 mb-3"><?php echo $lang["gestion-eventos"]; ?></h1>
 
         <div class="mt-4 mb-4">
@@ -43,11 +43,15 @@ include './config/conflang.php';
                     <label for="nombre"><?php echo $lang["nombre"]; ?></label>
                     <input type="text" name="nombre" id="nombre" class="form-control" required>
                 </div>
-               <div class="form-group">
+                <div class="form-group">
+                    <label for="detalle"><?php echo $lang["detalle"]; ?></label>
+                    <input type="text" name="detalle" id="detalle" class="form-control" required>
+                </div>
+                <div class="form-group">
                     <label for="direccion"><?php echo $lang["direccion"]; ?></label>
                     <input type="text" name="direccion" id="direccion" class="form-control" required>
                 </div>
-                
+
                 <div class="d-flex justify-content-end mt-3 mb-3">
                     <!-- Botón para enviar el formulario y guardar la ubicacion -->
                     <button type="submit" class="btn btn-custom"><?php echo $lang["guardar"]; ?></button>
