@@ -27,6 +27,8 @@ include './config/conflang.php';
                     <option value="en" <?php if ($_SESSION['lang'] == 'en') echo 'selected'; ?>>English</option>
                     <option value="pt" <?php if ($_SESSION['lang'] == 'pt') echo 'selected'; ?>>Português</option>
                     <option value="fr" <?php if ($_SESSION['lang'] == 'fr') echo 'selected'; ?>>Français</option>
+                    <option value="ru" <?php if ($_SESSION['lang'] == 'ru') echo 'selected'; ?>>русский</option>
+                    <option value="de" <?php if ($_SESSION['lang'] == 'de') echo 'selected'; ?>>Deutsch</option>
                 </select>
             </form>
             
